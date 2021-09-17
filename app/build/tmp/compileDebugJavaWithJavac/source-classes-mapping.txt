@@ -1,0 +1,24 @@
+com/example/myapplication/view/VideoPlayFragmentArgs.java
+ com.example.myapplication.view.VideoPlayFragmentArgs
+ com.example.myapplication.view.VideoPlayFragmentArgs$1
+ com.example.myapplication.view.VideoPlayFragmentArgs$Builder
+com/example/myapplication/databinding/ContentMainBinding.java
+ com.example.myapplication.databinding.ContentMainBinding
+com/example/myapplication/view/VideoPlayFragmentDirections.java
+ com.example.myapplication.view.VideoPlayFragmentDirections
+com/example/myapplication/databinding/FragmentVideoplayBinding.java
+ com.example.myapplication.databinding.FragmentVideoplayBinding
+com/example/myapplication/databinding/ActivityDetayBinding.java
+ com.example.myapplication.databinding.ActivityDetayBinding
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/databinding/ActivityMainBinding.java
+ com.example.myapplication.databinding.ActivityMainBinding
+com/example/myapplication/databinding/FragmentListBinding.java
+ com.example.myapplication.databinding.FragmentListBinding
+com/example/myapplication/DataBindingTriggerClass.java
+ com.example.myapplication.DataBindingTriggerClass
+com/example/myapplication/view/ListFragmentDirections.java
+ com.example.myapplication.view.ListFragmentDirections
+ com.example.myapplication.view.ListFragmentDirections$1
+ com.example.myapplication.view.ListFragmentDirections$ActionFirstFragmentToSecondFragment

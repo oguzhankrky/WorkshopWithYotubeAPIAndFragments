@@ -81,7 +81,7 @@ class ListFragment : Fragment() {
         }
     }
     private fun getLiveData(){
-        viewModel.wmDataKeeper.observe(viewLifecycleOwner, Observer { data ->
+        viewModel.wmDataKeeper.observe(viewLifecycleOwner, { data ->
             data?.let {
                 Log.d("TAG","dddddddddd")
                 binding.recyclerview1.adapter = VideoAdapter(data.items)

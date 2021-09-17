@@ -1,0 +1,320 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/5c35590b331915b529ba823e72becacd/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-ktx:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/beccff2828f7149e81e9540e63f946d2/transformed/jetified-databinding-ktx-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/3b332c698c88bf8a8cda6656170e80c1/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/f3d6fe7992a1d4240da1ea1db6e3815b/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/e3f4f21f34e6d9a7dd4eb57be18fbbb7/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/ibtechizmir/.gradle/caches/transforms-3/08b254cfdb157c1890e640706567d437/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/bff3258867ceaad6191b0ed3fdd86980/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/1f651d75beef4686fdf0194aa2d5f8fe/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/a830d2e6a68a85e0521d7b6f4318c849/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/89e55d590795833f59b531f9dbaee25b/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6157af8d3bef1139c33400a0c3385808/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/0baecf1bfdc06286e184c9ecd7a1030b/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/451e011eb5c49628675def01e5cba3f2/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/4158ea5e771da457515c43c54b4d5439/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7a2934a53c971c6225cef3479366c638/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cdf74145b0d275f21a2bf1da5b9ed40e/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/d6dbdd8216dd782b3d6baa623c6d8fbc/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8c80c33a579f6ee7dc94c8ea4d0b3759/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/79d496ee70b450f28c35557caad099c3/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7f8429256307cd240e1574d66fb671ca/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/c8747d6f09ce32716aa3dc85401698dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/594aacb227a27bd5ef71ea652ed22bb2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a9e5b8299c3ad70267a1e7349c082ee4/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/685ea0f843730c959582f5486df3f92f/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/ibtechizmir/.gradle/caches/transforms-3/b144fded501ae4dcd68f7e70ca229474/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/96fb3ebd231e409919e13b5bddcf6a73/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/ibtechizmir/.gradle/caches/transforms-3/415be404a567aaa2cb0466de2f6f82d2/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/70a016778278f402ac7951491c49d941/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/4241d61e4be554be7e77bf66598dc74d/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/f05e6191eb2e9ddfd8c40808c3dba98e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a995572dbd5c6b47eb1aaa3623e322fc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/07400e8183d933e7a6e908d4afe5abed/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8d3a57682980adeabe2b68dc5530bd50/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/56b1239318c00c485992cd894d596b44/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3824b9c141ce0295e1c7e530c2e00832/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/05d4f9e4ac55deba273cae5477c5c54d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3821409c00faa9d799959d77d236c3f5/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/9db316e26d54f98e17a51019f529047a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/38439a0ffcd3a925e00c5af3c108b7ed/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/08af96530a96c4c98fe702ec0a1ea792/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/ibtechizmir/.gradle/caches/transforms-3/d0af2c2185abc9f1f6225a4556ba8afd/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d488493d619ff064c406d833ccf189/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59c0e9c6fb716de979326e431a9acb01/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/f5dce117568577bcd2e6cb63019efbf4/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/e6136a814901814935d60fed62f478ad/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b41473cdacc726bc1d08b4813a4beea8/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9c99030b0e53cdad7f78b41330b41416/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/2bd2dfba5771db87adfb74ea6222ebc8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/aaa05f7346cfb3e5ac8b9a8a1f26309c/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b860f572dae341b56254ceb0f6f73c1e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/497e3b271972ad34fe2b5f1b0b39a0ca/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/fc16ee5f7e522a27bf2a71b887692599/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d20a54c405936efb9506bc4df084b0/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/181dc04dfbdfdae1f1fe0fcdeb9f44c1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9d980e984d30d94230b5651666c2fa73/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/1fdb78dd458ab17c69308a5e82f714ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9837df30956dee07fb172a303fc37df4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/da7dc2a2cdca1c6b83aff4369f31967a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1b00512fb0eb64b25296f89d6e639437/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3abcb84381aa8c5ebf30a7f45176f895/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1a526c860f602c6bf9827c91bf0971fe/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2b787a8b73966a35a4f5b528856e6df6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:7:5-26:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/451e011eb5c49628675def01e5cba3f2/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/451e011eb5c49628675def01e5cba3f2/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8c80c33a579f6ee7dc94c8ea4d0b3759/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8c80c33a579f6ee7dc94c8ea4d0b3759/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7f8429256307cd240e1574d66fb671ca/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7f8429256307cd240e1574d66fb671ca/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/1fdb78dd458ab17c69308a5e82f714ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/1fdb78dd458ab17c69308a5e82f714ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:13:9-51
+	android:fullBackupOnly
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:8:9-38
+	android:usesCleartextTraffic
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:14:9-44
+activity#com.example.myapplication.view.MainActivity
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:19:13-67
+	android:name
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:16:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/5c35590b331915b529ba823e72becacd/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/5c35590b331915b529ba823e72becacd/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-ktx:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/beccff2828f7149e81e9540e63f946d2/transformed/jetified-databinding-ktx-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-ktx:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/beccff2828f7149e81e9540e63f946d2/transformed/jetified-databinding-ktx-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/3b332c698c88bf8a8cda6656170e80c1/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/3b332c698c88bf8a8cda6656170e80c1/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/f3d6fe7992a1d4240da1ea1db6e3815b/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/f3d6fe7992a1d4240da1ea1db6e3815b/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/e3f4f21f34e6d9a7dd4eb57be18fbbb7/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/e3f4f21f34e6d9a7dd4eb57be18fbbb7/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/ibtechizmir/.gradle/caches/transforms-3/08b254cfdb157c1890e640706567d437/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/ibtechizmir/.gradle/caches/transforms-3/08b254cfdb157c1890e640706567d437/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/bff3258867ceaad6191b0ed3fdd86980/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/bff3258867ceaad6191b0ed3fdd86980/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/1f651d75beef4686fdf0194aa2d5f8fe/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/1f651d75beef4686fdf0194aa2d5f8fe/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/a830d2e6a68a85e0521d7b6f4318c849/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/a830d2e6a68a85e0521d7b6f4318c849/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/89e55d590795833f59b531f9dbaee25b/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/89e55d590795833f59b531f9dbaee25b/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6157af8d3bef1139c33400a0c3385808/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6157af8d3bef1139c33400a0c3385808/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/0baecf1bfdc06286e184c9ecd7a1030b/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/0baecf1bfdc06286e184c9ecd7a1030b/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/451e011eb5c49628675def01e5cba3f2/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/451e011eb5c49628675def01e5cba3f2/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/4158ea5e771da457515c43c54b4d5439/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/4158ea5e771da457515c43c54b4d5439/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7a2934a53c971c6225cef3479366c638/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7a2934a53c971c6225cef3479366c638/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cdf74145b0d275f21a2bf1da5b9ed40e/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cdf74145b0d275f21a2bf1da5b9ed40e/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/d6dbdd8216dd782b3d6baa623c6d8fbc/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/d6dbdd8216dd782b3d6baa623c6d8fbc/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8c80c33a579f6ee7dc94c8ea4d0b3759/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8c80c33a579f6ee7dc94c8ea4d0b3759/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/79d496ee70b450f28c35557caad099c3/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/79d496ee70b450f28c35557caad099c3/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7f8429256307cd240e1574d66fb671ca/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7f8429256307cd240e1574d66fb671ca/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/c8747d6f09ce32716aa3dc85401698dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/c8747d6f09ce32716aa3dc85401698dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/594aacb227a27bd5ef71ea652ed22bb2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/594aacb227a27bd5ef71ea652ed22bb2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a9e5b8299c3ad70267a1e7349c082ee4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a9e5b8299c3ad70267a1e7349c082ee4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/685ea0f843730c959582f5486df3f92f/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/685ea0f843730c959582f5486df3f92f/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/ibtechizmir/.gradle/caches/transforms-3/b144fded501ae4dcd68f7e70ca229474/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/ibtechizmir/.gradle/caches/transforms-3/b144fded501ae4dcd68f7e70ca229474/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/96fb3ebd231e409919e13b5bddcf6a73/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/96fb3ebd231e409919e13b5bddcf6a73/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/ibtechizmir/.gradle/caches/transforms-3/415be404a567aaa2cb0466de2f6f82d2/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/ibtechizmir/.gradle/caches/transforms-3/415be404a567aaa2cb0466de2f6f82d2/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/70a016778278f402ac7951491c49d941/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/70a016778278f402ac7951491c49d941/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/4241d61e4be554be7e77bf66598dc74d/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/4241d61e4be554be7e77bf66598dc74d/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/f05e6191eb2e9ddfd8c40808c3dba98e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/f05e6191eb2e9ddfd8c40808c3dba98e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a995572dbd5c6b47eb1aaa3623e322fc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a995572dbd5c6b47eb1aaa3623e322fc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/07400e8183d933e7a6e908d4afe5abed/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/07400e8183d933e7a6e908d4afe5abed/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8d3a57682980adeabe2b68dc5530bd50/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/8d3a57682980adeabe2b68dc5530bd50/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/56b1239318c00c485992cd894d596b44/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/56b1239318c00c485992cd894d596b44/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3824b9c141ce0295e1c7e530c2e00832/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3824b9c141ce0295e1c7e530c2e00832/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/05d4f9e4ac55deba273cae5477c5c54d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/05d4f9e4ac55deba273cae5477c5c54d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3821409c00faa9d799959d77d236c3f5/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3821409c00faa9d799959d77d236c3f5/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/9db316e26d54f98e17a51019f529047a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/9db316e26d54f98e17a51019f529047a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/38439a0ffcd3a925e00c5af3c108b7ed/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/38439a0ffcd3a925e00c5af3c108b7ed/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/08af96530a96c4c98fe702ec0a1ea792/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/08af96530a96c4c98fe702ec0a1ea792/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/ibtechizmir/.gradle/caches/transforms-3/d0af2c2185abc9f1f6225a4556ba8afd/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/ibtechizmir/.gradle/caches/transforms-3/d0af2c2185abc9f1f6225a4556ba8afd/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d488493d619ff064c406d833ccf189/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d488493d619ff064c406d833ccf189/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59c0e9c6fb716de979326e431a9acb01/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59c0e9c6fb716de979326e431a9acb01/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/f5dce117568577bcd2e6cb63019efbf4/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/f5dce117568577bcd2e6cb63019efbf4/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/e6136a814901814935d60fed62f478ad/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/e6136a814901814935d60fed62f478ad/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b41473cdacc726bc1d08b4813a4beea8/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b41473cdacc726bc1d08b4813a4beea8/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9c99030b0e53cdad7f78b41330b41416/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9c99030b0e53cdad7f78b41330b41416/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/2bd2dfba5771db87adfb74ea6222ebc8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/2bd2dfba5771db87adfb74ea6222ebc8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/aaa05f7346cfb3e5ac8b9a8a1f26309c/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/aaa05f7346cfb3e5ac8b9a8a1f26309c/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b860f572dae341b56254ceb0f6f73c1e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b860f572dae341b56254ceb0f6f73c1e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/497e3b271972ad34fe2b5f1b0b39a0ca/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/497e3b271972ad34fe2b5f1b0b39a0ca/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/fc16ee5f7e522a27bf2a71b887692599/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/fc16ee5f7e522a27bf2a71b887692599/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d20a54c405936efb9506bc4df084b0/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d20a54c405936efb9506bc4df084b0/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/181dc04dfbdfdae1f1fe0fcdeb9f44c1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/181dc04dfbdfdae1f1fe0fcdeb9f44c1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9d980e984d30d94230b5651666c2fa73/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9d980e984d30d94230b5651666c2fa73/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/1fdb78dd458ab17c69308a5e82f714ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibtechizmir/.gradle/caches/transforms-3/1fdb78dd458ab17c69308a5e82f714ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9837df30956dee07fb172a303fc37df4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/9837df30956dee07fb172a303fc37df4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/da7dc2a2cdca1c6b83aff4369f31967a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/da7dc2a2cdca1c6b83aff4369f31967a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1b00512fb0eb64b25296f89d6e639437/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1b00512fb0eb64b25296f89d6e639437/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3abcb84381aa8c5ebf30a7f45176f895/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3abcb84381aa8c5ebf30a7f45176f895/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1a526c860f602c6bf9827c91bf0971fe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1a526c860f602c6bf9827c91bf0971fe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2b787a8b73966a35a4f5b528856e6df6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2b787a8b73966a35a4f5b528856e6df6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

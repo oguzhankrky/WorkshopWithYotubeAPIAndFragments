@@ -1,5 +1,7 @@
 package com.example.workshopwithyotubeapi.viewmodel
 
+import android.net.DnsResolver
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -7,43 +9,36 @@ import androidx.lifecycle.ViewModel
 import com.example.workshopwithyotubeapi.model.youtubeModel
 import com.example.workshopwithyotubeapi.service.youtubeApıService
 
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.observers.DisposableSingleObserver
-import io.reactivex.schedulers.Schedulers
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class ListVideoViewModel: ViewModel() {
-    //private lateinit var binding : ActivityMainBinding
     private val youtubeApiService = youtubeApıService()
-    private val disposable = CompositeDisposable()
-    internal val wmDataKeeper = MutableLiveData<youtubeModel>()
-    val wlDataKeeper : LiveData<youtubeModel>
-        get()=wmDataKeeper
+    val wmDataKeeper: MutableLiveData<youtubeModel?> = MutableLiveData(null)
     fun refreshData(searchWord:String) {
         getDataFromAPI(searchWord)
     }
 
     private fun getDataFromAPI(searchWord:String){
 
-        disposable.add(
             youtubeApiService.getDataService("AIzaSyD9IhAJjjG9xsaNBiiEf8NI69xV7LGfXwk","snippet","date","50","TR","video",searchWord)
-                .subscribeOn(Schedulers.newThread())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeWith(object : DisposableSingleObserver<youtubeModel>() {
-
-                    override fun onSuccess(wmData: youtubeModel) {
-                        wmDataKeeper.value=wmData
-
-
+                .enqueue(object: Callback<youtubeModel> {
+                    override fun onResponse(
+                        call: Call<youtubeModel>,
+                        response: Response<youtubeModel>
+                    ) {
+                        if(response.isSuccessful && response.body() != null) {
+                            wmDataKeeper.postValue(response.body())
+                        }
                     }
 
-                    override fun onError(e: Throwable) {
-
-
+                    override fun onFailure(call: Call<youtubeModel>, t: Throwable) {
+                        if(!t.message.isNullOrEmpty()) Log.e("oguzhan", "onFailure: ${t.message}", )
                     }
 
                 })
-        )
+
 
     }
 
