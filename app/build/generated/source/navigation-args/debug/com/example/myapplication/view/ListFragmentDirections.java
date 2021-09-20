@@ -16,22 +16,22 @@ public class ListFragmentDirections {
   }
 
   @NonNull
-  public static ActionFirstFragmentToSecondFragment actionFirstFragmentToSecondFragment(
+  public static ActionListFragmentToVideoPlayFragment actionListFragmentToVideoPlayFragment(
       @Nullable String name) {
-    return new ActionFirstFragmentToSecondFragment(name);
+    return new ActionListFragmentToVideoPlayFragment(name);
   }
 
-  public static class ActionFirstFragmentToSecondFragment implements NavDirections {
+  public static class ActionListFragmentToVideoPlayFragment implements NavDirections {
     private final HashMap arguments = new HashMap();
 
     @SuppressWarnings("unchecked")
-    private ActionFirstFragmentToSecondFragment(@Nullable String name) {
+    private ActionListFragmentToVideoPlayFragment(@Nullable String name) {
       this.arguments.put("name", name);
     }
 
     @NonNull
     @SuppressWarnings("unchecked")
-    public ActionFirstFragmentToSecondFragment setName(@Nullable String name) {
+    public ActionListFragmentToVideoPlayFragment setName(@Nullable String name) {
       this.arguments.put("name", name);
       return this;
     }
@@ -50,7 +50,7 @@ public class ListFragmentDirections {
 
     @Override
     public int getActionId() {
-      return R.id.action_FirstFragment_to_SecondFragment;
+      return R.id.action_ListFragment_to_VideoPlayFragment;
     }
 
     @SuppressWarnings("unchecked")
@@ -67,7 +67,7 @@ public class ListFragmentDirections {
       if (object == null || getClass() != object.getClass()) {
           return false;
       }
-      ActionFirstFragmentToSecondFragment that = (ActionFirstFragmentToSecondFragment) object;
+      ActionListFragmentToVideoPlayFragment that = (ActionListFragmentToVideoPlayFragment) object;
       if (arguments.containsKey("name") != that.arguments.containsKey("name")) {
         return false;
       }
@@ -90,7 +90,7 @@ public class ListFragmentDirections {
 
     @Override
     public String toString() {
-      return "ActionFirstFragmentToSecondFragment(actionId=" + getActionId() + "){"
+      return "ActionListFragmentToVideoPlayFragment(actionId=" + getActionId() + "){"
           + "name=" + getName()
           + "}";
     }

@@ -23,6 +23,9 @@ public final class FragmentListBinding implements ViewBinding {
   private final SwipeRefreshLayout rootView;
 
   @NonNull
+  public final LinearLayout Aftersearch;
+
+  @NonNull
   public final EditText editVideoName;
 
   @NonNull
@@ -37,10 +40,12 @@ public final class FragmentListBinding implements ViewBinding {
   @NonNull
   public final ImageView searchButton;
 
-  private FragmentListBinding(@NonNull SwipeRefreshLayout rootView, @NonNull EditText editVideoName,
+  private FragmentListBinding(@NonNull SwipeRefreshLayout rootView,
+      @NonNull LinearLayout Aftersearch, @NonNull EditText editVideoName,
       @NonNull LinearLayout linearLayout, @NonNull RecyclerView recyclerview1,
       @NonNull SwipeRefreshLayout refreshLayout, @NonNull ImageView searchButton) {
     this.rootView = rootView;
+    this.Aftersearch = Aftersearch;
     this.editVideoName = editVideoName;
     this.linearLayout = linearLayout;
     this.recyclerview1 = recyclerview1;
@@ -75,6 +80,12 @@ public final class FragmentListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Aftersearch;
+      LinearLayout Aftersearch = ViewBindings.findChildViewById(rootView, id);
+      if (Aftersearch == null) {
+        break missingId;
+      }
+
       id = R.id.edit_video_name;
       EditText editVideoName = ViewBindings.findChildViewById(rootView, id);
       if (editVideoName == null) {
@@ -101,8 +112,8 @@ public final class FragmentListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentListBinding((SwipeRefreshLayout) rootView, editVideoName, linearLayout,
-          recyclerview1, refreshLayout, searchButton);
+      return new FragmentListBinding((SwipeRefreshLayout) rootView, Aftersearch, editVideoName,
+          linearLayout, recyclerview1, refreshLayout, searchButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

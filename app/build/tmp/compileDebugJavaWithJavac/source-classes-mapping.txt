@@ -21,4 +21,4 @@ com/example/myapplication/DataBindingTriggerClass.java
 com/example/myapplication/view/ListFragmentDirections.java
  com.example.myapplication.view.ListFragmentDirections
  com.example.myapplication.view.ListFragmentDirections$1
- com.example.myapplication.view.ListFragmentDirections$ActionFirstFragmentToSecondFragment
+ com.example.myapplication.view.ListFragmentDirections$ActionListFragmentToVideoPlayFragment

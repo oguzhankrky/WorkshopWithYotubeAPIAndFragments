@@ -9,12 +9,16 @@ import com.squareup.picasso.Picasso
 import android.content.Intent
 import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityDetayBinding
+import com.example.myapplication.view.ListFragment
 import com.example.myapplication.view.VideoPlayFragment
 
+lateinit var name:String
 
-class VideoAdapter (private val videoList: List<Item>) :
+class VideoAdapter (private val videoList: List<Item>,private val listener: ClickListener) :
     RecyclerView.Adapter<VideoAdapter.VideoViewHolder>() {
-
+    interface ClickListener {
+        fun onClickListener(item: String)
+    }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoViewHolder {
         val inf = LayoutInflater.from(parent.context)
         val binding: ActivityDetayBinding = DataBindingUtil.inflate(inf, R.layout.activity_detay,parent,false )
@@ -31,13 +35,12 @@ class VideoAdapter (private val videoList: List<Item>) :
 
     inner class VideoViewHolder( binding: ActivityDetayBinding) : RecyclerView.ViewHolder(binding.root) {
 
+
         init {
             binding.root.setOnClickListener {
+                listener.onClickListener(videoList[adapterPosition].id.videoId)
+                //videoList[adapterPosition].id.videoId
 
-            /* val intent = Intent(binding.root.context, VideoPlayFragment::class.java)
-
-                 intent.putExtra("videoId",videoList[adapterPosition].id.videoId)//videoList[itemId.toInt()].id.videoId
-                 binding.root.context.startActivity(intent)*/
             }
         }
 

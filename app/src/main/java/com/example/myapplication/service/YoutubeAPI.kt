@@ -29,7 +29,7 @@ interface YoutubeAPI {
 
 /*
 https://www.googleapis.com/youtube/v3/search?
-key=AIzaSyD9IhAJjjG9xsaNBiiEf8NI69xV7LGfXwk
+key=AIzaSyB4cpn75emuo45iathwp6oN0TzO74k9g2s
 &part=snippet
 &order=date
 &maxResult=50

@@ -4,13 +4,13 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplication.R;
-import com.google.android.youtube.player.YouTubePlayerView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,12 +20,11 @@ public final class FragmentVideoplayBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final YouTubePlayerView youtubeplayer;
+  public final Button ButtonComeBack;
 
-  private FragmentVideoplayBinding(@NonNull LinearLayout rootView,
-      @NonNull YouTubePlayerView youtubeplayer) {
+  private FragmentVideoplayBinding(@NonNull LinearLayout rootView, @NonNull Button ButtonComeBack) {
     this.rootView = rootView;
-    this.youtubeplayer = youtubeplayer;
+    this.ButtonComeBack = ButtonComeBack;
   }
 
   @Override
@@ -55,13 +54,13 @@ public final class FragmentVideoplayBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.youtubeplayer;
-      YouTubePlayerView youtubeplayer = ViewBindings.findChildViewById(rootView, id);
-      if (youtubeplayer == null) {
+      id = R.id.Button_ComeBack;
+      Button ButtonComeBack = ViewBindings.findChildViewById(rootView, id);
+      if (ButtonComeBack == null) {
         break missingId;
       }
 
-      return new FragmentVideoplayBinding((LinearLayout) rootView, youtubeplayer);
+      return new FragmentVideoplayBinding((LinearLayout) rootView, ButtonComeBack);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

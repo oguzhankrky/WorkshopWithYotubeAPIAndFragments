@@ -8,22 +8,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapplication.Extensions.hideKeyboard
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentListBinding
 import com.example.workshopwithyotubeapi.view.Video.VideoAdapter
 import com.example.workshopwithyotubeapi.viewmodel.ListVideoViewModel
-import android.R.id
-import android.app.Activity
+import com.bumptech.glide.load.engine.executor.GlideExecutor.UncaughtThrowableStrategy.LOG
 
 
-class ListFragment : Fragment() {
+class ListFragment : Fragment() , VideoAdapter.ClickListener {
+
 
     private  var GET: SharedPreferences?= null
     private  var SET: SharedPreferences.Editor?= null
@@ -48,18 +45,15 @@ class ListFragment : Fragment() {
         SET= GET?.edit()
 
         firstInitialviewModel()
-
+        getLiveData()
         RefreshPage()
         whenPushSearchButton()
 
 
 
 
-
-
-        /*
+/*
         arguments?.let {
-
 
         }
 
@@ -69,7 +63,11 @@ class ListFragment : Fragment() {
         }*/
     }
 
+    override fun onClickListener(item: String) {
+        val bundle = bundleOf("LinkName" to   item)
 
+        findNavController().navigate(R.id.action_ListFragment_to_VideoPlayFragment,bundle)
+    }
 
     fun firstInitialviewModel(){
 
@@ -84,7 +82,8 @@ class ListFragment : Fragment() {
         viewModel.wmDataKeeper.observe(viewLifecycleOwner, { data ->
             data?.let {
                 Log.d("TAG","dddddddddd")
-                binding.recyclerview1.adapter = VideoAdapter(data.items)
+
+                binding.recyclerview1.adapter = VideoAdapter(data.items,this)
 
 
             }
