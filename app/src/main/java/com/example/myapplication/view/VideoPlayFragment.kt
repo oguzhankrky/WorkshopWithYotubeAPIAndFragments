@@ -1,6 +1,7 @@
 package com.example.myapplication.view
 
-import android.annotation.SuppressLint
+
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -8,12 +9,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityDetayBinding.inflate
-import com.example.myapplication.databinding.FragmentListBinding
+import com.example.myapplication.data.FavouriteVideo
 import com.example.myapplication.databinding.FragmentVideoplayBinding
-import com.google.android.youtube.player.*
+import com.example.myapplication.viewmodel.FavouriteVideoViewModel
 
 
 class VideoPlayFragment : Fragment()  {
@@ -24,6 +25,7 @@ class VideoPlayFragment : Fragment()  {
     // onDestroyView.
     private val binding get() = _binding!!
 
+    private lateinit var mFavouriteVideoViewModel: FavouriteVideoViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View?
     {
@@ -37,19 +39,42 @@ class VideoPlayFragment : Fragment()  {
         super.onViewCreated(view, savedInstanceState)
 
         //getYoutubeVideoIdFromUrlLiveData()
-
-        var videoId= arguments?.getString("LinkName")
         //  initilizePlayer("https://www.youtube.com/watch?v=F9UC9DY-vIU")
-        print(videoId)
+
+        mFavouriteVideoViewModel=ViewModelProvider(this).get(FavouriteVideoViewModel::class.java)
+        val videolinkV= arguments?.getString("LinkName")
+        binding.addFavouriteButton.setOnClickListener{
+
+            if(videolinkV!=null) {
+                if (mFavouriteVideoViewModel.isRowIsExist(videolinkV)) {
+                    removeDataToDatabase(videolinkV)
+                }
+                else
+                    insertDataToDatabase(videolinkV)
+            }
+        }
 
         binding.ButtonComeBack.setOnClickListener {
-
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
 
         }
 
+    }
+    private fun insertDataToDatabase(videolinkV:String) {
+        if(videolinkV!=null) {
+            val favourvideo = FavouriteVideo(0, videolinkV)
+                binding.addFavouriteButton.setBackgroundColor(Color.parseColor("#FFE800"))
+                mFavouriteVideoViewModel.addfavouriteVideo(favourvideo)
+                Toast.makeText(requireContext(),"Added Fav List ",Toast.LENGTH_LONG).show()
+        }
+    }
+    private fun removeDataToDatabase(videolinkV: String) {
+        mFavouriteVideoViewModel.deletefavouriteVideo(videolinkV)
+        Toast.makeText(requireContext(), "Removed Favourite List ", Toast.LENGTH_LONG).show()
+        binding.addFavouriteButton.setBackgroundColor(Color.parseColor("#FFFFFF"))
 
     }
+
 
     /*private fun getYoutubeVideoIdFromUrlLiveData()
     {

@@ -18,66 +18,78 @@
 12-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:5:22-76
 13
 14    <application
-14-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:7:5-26:19
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:extractNativeLibs="false"
-18        android:fullBackupOnly="true"
-18-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:8:9-38
-19        android:icon="@mipmap/ic_launcher"
-19-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:9:9-43
-20        android:label="@string/app_name"
-20-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:10:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:11:9-54
-22        android:supportsRtl="true"
-22-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:12:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.MyApplication"
-24-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:13:9-51
-25        android:usesCleartextTraffic="true" >
-25-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:14:9-44
-26        <activity
-26-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:15:9-25:20
-27            android:name="com.example.myapplication.view.MainActivity"
-27-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:16:13-46
-28            android:exported="true"
-28-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:17:13-36
-29            android:label="@string/app_name"
-29-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:18:13-45
-30            android:theme="@style/Theme.MyApplication.NoActionBar" >
-30-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:19:13-67
-31            <intent-filter>
-31-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:20:13-24:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:17-69
-32-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:23:17-77
-34-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:23:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <provider
-38-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-39            android:name="com.squareup.picasso.PicassoProvider"
-39-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-40            android:authorities="com.example.myapplication.com.squareup.picasso"
-40-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-41            android:exported="false" />
-41-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-42        <provider
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-44            android:authorities="com.example.myapplication.lifecycle-process"
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-45            android:exported="false"
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-46            android:multiprocess="true" />
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-47    </application>
+14-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:7:5-27:19
+15        android:allowBackup="false"
+15-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:15:9-36
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupOnly="true"
+19-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:8:9-38
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:9:9-43
+21        android:label="@string/app_name"
+21-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:10:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:11:9-54
+23        android:supportsRtl="true"
+23-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:12:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.MyApplication"
+25-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:13:9-51
+26        android:usesCleartextTraffic="true" >
+26-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:14:9-44
+27        <activity
+27-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:16:9-26:20
+28            android:name="com.example.myapplication.view.MainActivity"
+28-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:17:13-46
+29            android:exported="true"
+29-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:18:13-36
+30            android:label="@string/app_name"
+30-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:19:13-45
+31            android:theme="@style/Theme.MyApplication.NoActionBar" >
+31-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:20:13-67
+32            <intent-filter>
+32-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:22:17-69
+33-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:24:17-77
+35-->/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+40            android:name="com.squareup.picasso.PicassoProvider"
+40-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+41            android:authorities="com.example.myapplication.com.squareup.picasso"
+41-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+42            android:exported="false" />
+42-->[com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+43
+44        <service
+44-->[androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+46            android:directBootAware="true"
+46-->[androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+47            android:exported="false" />
+47-->[androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
 48
-49</manifest>
+49        <provider
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+50            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+51            android:authorities="com.example.myapplication.lifecycle-process"
+51-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+52            android:exported="false"
+52-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+53            android:multiprocess="true" />
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+54    </application>
+55
+56</manifest>
