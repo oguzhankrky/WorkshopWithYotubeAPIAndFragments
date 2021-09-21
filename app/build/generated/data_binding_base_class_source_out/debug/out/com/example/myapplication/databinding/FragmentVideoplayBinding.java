@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,14 +22,9 @@ public final class FragmentVideoplayBinding implements ViewBinding {
   @NonNull
   public final Button ButtonComeBack;
 
-  @NonNull
-  public final ImageButton addFavouriteButton;
-
-  private FragmentVideoplayBinding(@NonNull LinearLayout rootView, @NonNull Button ButtonComeBack,
-      @NonNull ImageButton addFavouriteButton) {
+  private FragmentVideoplayBinding(@NonNull LinearLayout rootView, @NonNull Button ButtonComeBack) {
     this.rootView = rootView;
     this.ButtonComeBack = ButtonComeBack;
-    this.addFavouriteButton = addFavouriteButton;
   }
 
   @Override
@@ -66,14 +60,7 @@ public final class FragmentVideoplayBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.addFavouriteButton;
-      ImageButton addFavouriteButton = ViewBindings.findChildViewById(rootView, id);
-      if (addFavouriteButton == null) {
-        break missingId;
-      }
-
-      return new FragmentVideoplayBinding((LinearLayout) rootView, ButtonComeBack,
-          addFavouriteButton);
+      return new FragmentVideoplayBinding((LinearLayout) rootView, ButtonComeBack);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

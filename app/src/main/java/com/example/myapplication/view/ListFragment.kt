@@ -43,18 +43,7 @@ class ListFragment : Fragment() , VideoAdapter.ClickListener {
 
         GET = context?.getSharedPreferences("com.example.myapplication", Context.MODE_PRIVATE)
         SET= GET?.edit()
-        viewModel = ViewModelProvider(this).get(ListVideoViewModel::class.java)
-        binding.editVideoName.onFocusChangeListener  = View.OnFocusChangeListener { view , b ->
-            if(b)
-            {
-                Log.d("TAG","11111111111")
-            }
-            else
-            {
-                Log.d("TAG","22222222222")
-                binding.editVideoName.hideKeyboard()
-            }
-        }
+
         firstInitialviewModel()
         getLiveData()
         RefreshPage()
@@ -82,7 +71,7 @@ class ListFragment : Fragment() , VideoAdapter.ClickListener {
 
     fun firstInitialviewModel(){
 
-
+        viewModel = ViewModelProvider(this).get(ListVideoViewModel::class.java)
         var SearchWord=GET?.getString("q","Popular videos in turkey")
         binding.editVideoName.setText(SearchWord)
         if(SearchWord!=null) {
@@ -92,8 +81,13 @@ class ListFragment : Fragment() , VideoAdapter.ClickListener {
     private fun getLiveData(){
         viewModel.wmDataKeeper.observe(viewLifecycleOwner, { data ->
             data?.let {
+                Log.d("TAG","dddddddddd")
+
                 binding.recyclerview1.adapter = VideoAdapter(data.items,this)
+
+
             }
+
         })
 
     }

@@ -1,17 +1,3 @@
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
-com/example/myapplication/DataBinderMapperImpl.java
- com.example.myapplication.DataBinderMapperImpl
- com.example.myapplication.DataBinderMapperImpl$InnerBrLookup
- com.example.myapplication.DataBinderMapperImpl$InnerLayoutIdLookup
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-com/example/myapplication/view/ListFragmentDirections.java
- com.example.myapplication.view.ListFragmentDirections
- com.example.myapplication.view.ListFragmentDirections$1
- com.example.myapplication.view.ListFragmentDirections$ActionListFragmentToVideoPlayFragment
-com/example/myapplication/DataBindingTriggerClass.java
- com.example.myapplication.DataBindingTriggerClass
 com/example/myapplication/view/VideoPlayFragmentArgs.java
  com.example.myapplication.view.VideoPlayFragmentArgs
  com.example.myapplication.view.VideoPlayFragmentArgs$1
@@ -28,19 +14,11 @@ com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/ActivityMainBinding.java
  com.example.myapplication.databinding.ActivityMainBinding
-com/example/myapplication/BR.java
- com.example.myapplication.BR
 com/example/myapplication/databinding/FragmentListBinding.java
  com.example.myapplication.databinding.FragmentListBinding
-com/example/myapplication/databinding/ActivityDetayBindingImpl.java
- com.example.myapplication.databinding.ActivityDetayBindingImpl
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-com/example/myapplication/data/FavouriteVideoDao_Impl.java
- com.example.myapplication.data.FavouriteVideoDao_Impl
- com.example.myapplication.data.FavouriteVideoDao_Impl$1
- com.example.myapplication.data.FavouriteVideoDao_Impl$2
- com.example.myapplication.data.FavouriteVideoDao_Impl$3
-com/example/myapplication/data/FavouriteVideoDatabase_Impl.java
- com.example.myapplication.data.FavouriteVideoDatabase_Impl
- com.example.myapplication.data.FavouriteVideoDatabase_Impl$1
+com/example/myapplication/DataBindingTriggerClass.java
+ com.example.myapplication.DataBindingTriggerClass
+com/example/myapplication/view/ListFragmentDirections.java
+ com.example.myapplication.view.ListFragmentDirections
+ com.example.myapplication.view.ListFragmentDirections$1
+ com.example.myapplication.view.ListFragmentDirections$ActionListFragmentToVideoPlayFragment

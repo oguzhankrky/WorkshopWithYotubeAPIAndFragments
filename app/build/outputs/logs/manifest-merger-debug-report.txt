@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/5c35590b331915b529ba823e72becacd/transformed/databinding-adapters-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-ktx:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/beccff2828f7149e81e9540e63f946d2/transformed/jetified-databinding-ktx-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:7.0.2] /Users/ibtechizmir/.gradle/caches/transforms-3/3b332c698c88bf8a8cda6656170e80c1/transformed/databinding-runtime-7.0.2/AndroidManifest.xml:17:1-22:12
@@ -29,7 +29,6 @@ MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/ca
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/c8747d6f09ce32716aa3dc85401698dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/594aacb227a27bd5ef71ea652ed22bb2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a9e5b8299c3ad70267a1e7349c082ee4/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/685ea0f843730c959582f5486df3f92f/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/ibtechizmir/.gradle/caches/transforms-3/b144fded501ae4dcd68f7e70ca229474/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/96fb3ebd231e409919e13b5bddcf6a73/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -61,8 +60,6 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/ibtechizmir/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/b860f572dae341b56254ceb0f6f73c1e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/497e3b271972ad34fe2b5f1b0b39a0ca/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/ibtechizmir/.gradle/caches/transforms-3/4bad86a8d8c4a8fa830e624a0b03bf78/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/ibtechizmir/.gradle/caches/transforms-3/28057cceb1b02290ed161d398a83033c/transformed/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/fc16ee5f7e522a27bf2a71b887692599/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d20a54c405936efb9506bc4df084b0/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/ibtechizmir/.gradle/caches/transforms-3/181dc04dfbdfdae1f1fe0fcdeb9f44c1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
@@ -74,20 +71,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/3abcb84381aa8c5ebf30a7f45176f895/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/1a526c860f602c6bf9827c91bf0971fe/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2b787a8b73966a35a4f5b528856e6df6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:2:11-69
@@ -100,7 +97,7 @@ ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFrag
 	android:name
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:5:22-76
 application
-ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:7:5-27:19
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:7:5-26:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/ibtechizmir/.gradle/caches/transforms-3/2050d18b427364d1eb7e2af192f228e1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/451e011eb5c49628675def01e5cba3f2/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -111,8 +108,6 @@ MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/7f8429256307cd240e1574d66fb671ca/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] /Users/ibtechizmir/.gradle/caches/transforms-3/cbb5fd88d92819ecd4f859b4dd87a635/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
@@ -131,8 +126,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibte
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:9:9-43
-	android:allowBackup
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:15:9-36
 	android:theme
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:13:9-51
 	android:fullBackupOnly
@@ -140,25 +133,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ibte
 	android:usesCleartextTraffic
 		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:14:9-44
 activity#com.example.myapplication.view.MainActivity
-ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:16:9-26:20
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:15:9-25:20
 	android:label
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:19:13-45
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:18:13-45
 	android:exported
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:20:13-67
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:19:13-67
 	android:name
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:17:13-46
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:16:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/AndroidManifest.xml
@@ -213,8 +206,6 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ibtechizmir/.gradl
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ibtechizmir/.gradle/caches/transforms-3/594aacb227a27bd5ef71ea652ed22bb2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a9e5b8299c3ad70267a1e7349c082ee4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/ibtechizmir/.gradle/caches/transforms-3/a9e5b8299c3ad70267a1e7349c082ee4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/685ea0f843730c959582f5486df3f92f/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/ibtechizmir/.gradle/caches/transforms-3/685ea0f843730c959582f5486df3f92f/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/ibtechizmir/.gradle/caches/transforms-3/b144fded501ae4dcd68f7e70ca229474/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
@@ -277,10 +268,6 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gr
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/ibtechizmir/.gradle/caches/transforms-3/6597af1b770e7c6af6b36aabc7bd5cb9/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/497e3b271972ad34fe2b5f1b0b39a0ca/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/497e3b271972ad34fe2b5f1b0b39a0ca/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/ibtechizmir/.gradle/caches/transforms-3/4bad86a8d8c4a8fa830e624a0b03bf78/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/ibtechizmir/.gradle/caches/transforms-3/4bad86a8d8c4a8fa830e624a0b03bf78/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/ibtechizmir/.gradle/caches/transforms-3/28057cceb1b02290ed161d398a83033c/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/ibtechizmir/.gradle/caches/transforms-3/28057cceb1b02290ed161d398a83033c/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/fc16ee5f7e522a27bf2a71b887692599/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/fc16ee5f7e522a27bf2a71b887692599/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/59d20a54c405936efb9506bc4df084b0/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -321,14 +308,6 @@ ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/cac
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/ibtechizmir/.gradle/caches/transforms-3/d798ac9b25fb8f2095d430763553e5d6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
-	android:name
-		ADDED from [androidx.room:room-runtime:2.2.6] /Users/ibtechizmir/.gradle/caches/transforms-3/9928064f20a76e0bad1e9e5c3c1c85d8/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/ibtechizmir/.gradle/caches/transforms-3/395896cea36da0e1de4e357e76a7f8e4/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 	android:authorities
