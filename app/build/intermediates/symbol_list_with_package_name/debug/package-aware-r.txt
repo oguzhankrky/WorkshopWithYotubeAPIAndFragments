@@ -1944,6 +1944,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addFavouriteButton
 id alertTitle
 id aligned
 id all
