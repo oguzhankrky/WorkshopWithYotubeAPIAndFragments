@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
-import com.example.myapplication.databinding.ActivityDetayBindingImpl;
+import com.example.myapplication.databinding.ActivityDetailBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -18,12 +18,12 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_ACTIVITYDETAY = 1;
+  private static final int LAYOUT_ACTIVITYDETAIL = 1;
 
   private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
 
   static {
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.myapplication.R.layout.activity_detay, LAYOUT_ACTIVITYDETAY);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.myapplication.R.layout.activity_detail, LAYOUT_ACTIVITYDETAIL);
   }
 
   @Override
@@ -35,11 +35,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
-        case  LAYOUT_ACTIVITYDETAY: {
-          if ("layout/activity_detay_0".equals(tag)) {
-            return new ActivityDetayBindingImpl(component, view);
+        case  LAYOUT_ACTIVITYDETAIL: {
+          if ("layout/activity_detail_0".equals(tag)) {
+            return new ActivityDetailBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for activity_detay is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for activity_detail is invalid. Received: " + tag);
         }
       }
     }
@@ -97,7 +97,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
 
     static {
-      sKeys.put("layout/activity_detay_0", com.example.myapplication.R.layout.activity_detay);
+      sKeys.put("layout/activity_detail_0", com.example.myapplication.R.layout.activity_detail);
     }
   }
 }

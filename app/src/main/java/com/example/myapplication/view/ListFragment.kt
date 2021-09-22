@@ -17,6 +17,7 @@ import com.example.myapplication.databinding.FragmentListBinding
 import com.example.workshopwithyotubeapi.view.Video.VideoAdapter
 import com.example.workshopwithyotubeapi.viewmodel.ListVideoViewModel
 import com.bumptech.glide.load.engine.executor.GlideExecutor.UncaughtThrowableStrategy.LOG
+import com.example.myapplication.Extensions.focusChange
 
 
 class ListFragment : Fragment() , VideoAdapter.ClickListener {
@@ -44,17 +45,7 @@ class ListFragment : Fragment() , VideoAdapter.ClickListener {
         GET = context?.getSharedPreferences("com.example.myapplication", Context.MODE_PRIVATE)
         SET= GET?.edit()
         viewModel = ViewModelProvider(this).get(ListVideoViewModel::class.java)
-        binding.editVideoName.onFocusChangeListener  = View.OnFocusChangeListener { view , b ->
-            if(b)
-            {
-                Log.d("TAG","11111111111")
-            }
-            else
-            {
-                Log.d("TAG","22222222222")
-                binding.editVideoName.hideKeyboard()
-            }
-        }
+        focusSearchbar()
         firstInitialviewModel()
         getLiveData()
         RefreshPage()
@@ -79,7 +70,12 @@ class ListFragment : Fragment() , VideoAdapter.ClickListener {
 
         findNavController().navigate(R.id.action_ListFragment_to_VideoPlayFragment,bundle)
     }
-
+    fun focusSearchbar()
+    {
+        binding.editVideoName.focusChange {
+            if(!it) binding.editVideoName.hideKeyboard()
+        }
+    }
     fun firstInitialviewModel(){
 
 

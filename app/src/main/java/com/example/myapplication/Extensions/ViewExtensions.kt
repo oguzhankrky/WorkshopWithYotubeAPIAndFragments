@@ -12,6 +12,8 @@ fun View.hideKeyboard() { // extra added when push button , keyboard is closed.
         val inputMethodManager = this.context.applicationContext.getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodManager.hideSoftInputFromWindow(this.windowToken, 0)
 }
-
+inline fun EditText.focusChange(crossinline hasFocus: (Boolean) -> Unit){
+        setOnFocusChangeListener { _, p1 -> hasFocus(p1) }
+}
 
 

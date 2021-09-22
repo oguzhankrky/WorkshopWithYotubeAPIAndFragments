@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_detail.xml",
+        "source": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
         "merged": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_videoplay.xml",
         "source": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/res/layout/fragment_videoplay.xml"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_detay.xml",
         "source": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/res/layout/activity_detay.xml"
+    },
+    {
+        "merged": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_favourite_video.xml",
+        "source": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/src/main/res/layout/fragment_favourite_video.xml"
     },
     {
         "merged": "/Users/ibtechizmir/AndroidStudioProjects/WorkshopWithYotubeAPIAndFragments/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_list.xml",

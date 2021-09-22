@@ -22,7 +22,7 @@ class ListVideoViewModel: ViewModel() {
 
     private fun getDataFromAPI(searchWord:String){
 
-            youtubeApiService.getDataService("AIzaSyB4cpn75emuo45iathwp6oN0TzO74k9g2s","snippet","date","50","TR","video",searchWord)
+            youtubeApiService.getDataService("AIzaSyD9IhAJjjG9xsaNBiiEf8NI69xV7LGfXwk","snippet","date","50","TR","video",searchWord)
                 .enqueue(object: Callback<youtubeModel> {
                     override fun onResponse(
                         call: Call<youtubeModel>,

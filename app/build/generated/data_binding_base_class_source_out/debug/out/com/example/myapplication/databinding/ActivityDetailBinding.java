@@ -15,7 +15,7 @@ import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
-public abstract class ActivityDetayBinding extends ViewDataBinding {
+public abstract class ActivityDetailBinding extends ViewDataBinding {
   @NonNull
   public final FrameLayout containerImageWithText;
 
@@ -25,7 +25,7 @@ public abstract class ActivityDetayBinding extends ViewDataBinding {
   @NonNull
   public final ShapeableImageView videoPhoto;
 
-  protected ActivityDetayBinding(Object _bindingComponent, View _root, int _localFieldCount,
+  protected ActivityDetailBinding(Object _bindingComponent, View _root, int _localFieldCount,
       FrameLayout containerImageWithText, TextView videoName, ShapeableImageView videoPhoto) {
     super(_bindingComponent, _root, _localFieldCount);
     this.containerImageWithText = containerImageWithText;
@@ -34,7 +34,7 @@ public abstract class ActivityDetayBinding extends ViewDataBinding {
   }
 
   @NonNull
-  public static ActivityDetayBinding inflate(@NonNull LayoutInflater inflater,
+  public static ActivityDetailBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup root, boolean attachToRoot) {
     return inflate(inflater, root, attachToRoot, DataBindingUtil.getDefaultComponent());
   }
@@ -44,17 +44,17 @@ public abstract class ActivityDetayBinding extends ViewDataBinding {
    * type DataBindingComponent to avoid causing too many compilation errors if
    * compilation fails for another reason.
    * https://issuetracker.google.com/issues/116541301
-   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.activity_detay, root, attachToRoot, component)
+   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.activity_detail, root, attachToRoot, component)
    */
   @NonNull
   @Deprecated
-  public static ActivityDetayBinding inflate(@NonNull LayoutInflater inflater,
+  public static ActivityDetailBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup root, boolean attachToRoot, @Nullable Object component) {
-    return ViewDataBinding.<ActivityDetayBinding>inflateInternal(inflater, R.layout.activity_detay, root, attachToRoot, component);
+    return ViewDataBinding.<ActivityDetailBinding>inflateInternal(inflater, R.layout.activity_detail, root, attachToRoot, component);
   }
 
   @NonNull
-  public static ActivityDetayBinding inflate(@NonNull LayoutInflater inflater) {
+  public static ActivityDetailBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, DataBindingUtil.getDefaultComponent());
   }
 
@@ -63,16 +63,16 @@ public abstract class ActivityDetayBinding extends ViewDataBinding {
    * type DataBindingComponent to avoid causing too many compilation errors if
    * compilation fails for another reason.
    * https://issuetracker.google.com/issues/116541301
-   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.activity_detay, null, false, component)
+   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.activity_detail, null, false, component)
    */
   @NonNull
   @Deprecated
-  public static ActivityDetayBinding inflate(@NonNull LayoutInflater inflater,
+  public static ActivityDetailBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable Object component) {
-    return ViewDataBinding.<ActivityDetayBinding>inflateInternal(inflater, R.layout.activity_detay, null, false, component);
+    return ViewDataBinding.<ActivityDetailBinding>inflateInternal(inflater, R.layout.activity_detail, null, false, component);
   }
 
-  public static ActivityDetayBinding bind(@NonNull View view) {
+  public static ActivityDetailBinding bind(@NonNull View view) {
     return bind(view, DataBindingUtil.getDefaultComponent());
   }
 
@@ -84,7 +84,7 @@ public abstract class ActivityDetayBinding extends ViewDataBinding {
    * @Deprecated Use DataBindingUtil.bind(view, component)
    */
   @Deprecated
-  public static ActivityDetayBinding bind(@NonNull View view, @Nullable Object component) {
-    return (ActivityDetayBinding)bind(component, view, R.layout.activity_detay);
+  public static ActivityDetailBinding bind(@NonNull View view, @Nullable Object component) {
+    return (ActivityDetailBinding)bind(component, view, R.layout.activity_detail);
   }
 }

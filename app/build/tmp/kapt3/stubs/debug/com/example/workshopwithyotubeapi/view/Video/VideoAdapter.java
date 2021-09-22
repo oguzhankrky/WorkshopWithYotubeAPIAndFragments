@@ -37,7 +37,7 @@ public final class VideoAdapter extends androidx.recyclerview.widget.RecyclerVie
         java.lang.String item);
     }
     
-    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\b\u0086\u0004\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u000e\u0010\r\u001a\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\u0010R\u0011\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0007\u0010\bR\u0011\u0010\t\u001a\u00020\n\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\f\u00a8\u0006\u0011"}, d2 = {"Lcom/example/workshopwithyotubeapi/view/Video/VideoAdapter$VideoViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "binding", "Lcom/example/myapplication/databinding/ActivityDetayBinding;", "(Lcom/example/workshopwithyotubeapi/view/Video/VideoAdapter;Lcom/example/myapplication/databinding/ActivityDetayBinding;)V", "videoImage", "Lcom/google/android/material/imageview/ShapeableImageView;", "getVideoImage", "()Lcom/google/android/material/imageview/ShapeableImageView;", "videoText", "Landroid/widget/TextView;", "getVideoText", "()Landroid/widget/TextView;", "bind", "", "youtubeItem", "Lcom/example/workshopwithyotubeapi/model/Item;", "app_debug"})
+    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\b\u0086\u0004\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u000e\u0010\r\u001a\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\u0010R\u0011\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0007\u0010\bR\u0011\u0010\t\u001a\u00020\n\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\f\u00a8\u0006\u0011"}, d2 = {"Lcom/example/workshopwithyotubeapi/view/Video/VideoAdapter$VideoViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "binding", "Lcom/example/myapplication/databinding/ActivityDetailBinding;", "(Lcom/example/workshopwithyotubeapi/view/Video/VideoAdapter;Lcom/example/myapplication/databinding/ActivityDetailBinding;)V", "videoImage", "Lcom/google/android/material/imageview/ShapeableImageView;", "getVideoImage", "()Lcom/google/android/material/imageview/ShapeableImageView;", "videoText", "Landroid/widget/TextView;", "getVideoText", "()Landroid/widget/TextView;", "bind", "", "youtubeItem", "Lcom/example/workshopwithyotubeapi/model/Item;", "app_debug"})
     public final class VideoViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
         @org.jetbrains.annotations.NotNull()
         private final com.google.android.material.imageview.ShapeableImageView videoImage = null;
@@ -45,7 +45,7 @@ public final class VideoAdapter extends androidx.recyclerview.widget.RecyclerVie
         private final android.widget.TextView videoText = null;
         
         public VideoViewHolder(@org.jetbrains.annotations.NotNull()
-        com.example.myapplication.databinding.ActivityDetayBinding binding) {
+        com.example.myapplication.databinding.ActivityDetailBinding binding) {
             super(null);
         }
         

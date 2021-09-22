@@ -6,11 +6,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.workshopwithyotubeapi.model.Item
 import com.squareup.picasso.Picasso
-import android.content.Intent
 import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityDetayBinding
-import com.example.myapplication.view.ListFragment
-import com.example.myapplication.view.VideoPlayFragment
+import com.example.myapplication.databinding.ActivityDetailBinding
 
 lateinit var name:String
 
@@ -21,7 +18,7 @@ class VideoAdapter (private val videoList: List<Item>,private val listener: Clic
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoViewHolder {
         val inf = LayoutInflater.from(parent.context)
-        val binding: ActivityDetayBinding = DataBindingUtil.inflate(inf, R.layout.activity_detay,parent,false )
+        val binding: ActivityDetailBinding = DataBindingUtil.inflate(inf, R.layout.activity_detail,parent,false )
         return VideoViewHolder(binding)
     }
 
@@ -33,7 +30,7 @@ class VideoAdapter (private val videoList: List<Item>,private val listener: Clic
         holder.bind(videoList[position])
     }
 
-    inner class VideoViewHolder( binding: ActivityDetayBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class VideoViewHolder( binding: ActivityDetailBinding) : RecyclerView.ViewHolder(binding.root) {
 
 
         init {
